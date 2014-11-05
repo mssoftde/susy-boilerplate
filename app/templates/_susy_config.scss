@@ -1,0 +1,14 @@
+// Requirements
+// ============
+@import "susy";
+
+$susy: (
+  global-box-sizing: border-box,
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  gutter-position: split,
+  use-custom:(
+  	clearfix:true,
+  )
+);

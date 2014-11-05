@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-suzy-boilerplate' ]; then cd .. && eval "mv $currentfolder generator-suzy-boilerplate" && cd generator-suzy-boilerplate; fi
+
